@@ -20,4 +20,8 @@ public class MusteriController {
         return tumMusteriler;
     }
 
+    @GetMapping("/hepsiniSil")
+    public void hepsiniSil(){
+        tumMusteriler.clear();
+    }
 }
